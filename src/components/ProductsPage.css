@@ -1,0 +1,69 @@
+.product-page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+    gap: 1rem;
+        font-family: "Bebas Neue", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+      
+      
+      
+}
+
+.product-page>h1{
+    font-size: 3rem;
+padding: 0;
+margin: 3rem 0 0;
+
+}
+.searchbar>.searchbar-div{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.searchbar-div>form{
+    padding: 1rem;
+    font-size: 1rem;
+
+
+}
+
+.searchbar-div>form>input{
+    height: 1rem;
+    width: 20rem;
+    border-radius: 10px;
+    border: 1px solid gray;
+    padding: 10px;
+}
+.searchbar-div>form>.searchbar-label{
+    padding: 20px;
+
+}
+
+.productstable{
+    border: 3px solid black;
+    padding: 1rem;
+    display: flex;
+    margin: 0 0 4rem 0;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+}
+
+.productstable>table>thead>tr>th{
+    font-size: 2rem;
+    padding: 10px 30px;
+}
+
+
+
+.productstable>table>tbody>tr>td{
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    padding: 15px 30px;
+}
